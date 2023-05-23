@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #2b2b2b;
+}
+
+.row {
+    display: flex;
+    transform: translateY(-50%);
+    transform: translateX(50px);
+    position: fixed;
+    top: 50%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+
+.sidebar {
+    transform: translateY(-25%);
+    transform: translateX(50px);
+    top: 25%;
+    position: absolute;
+    background-color: #181818;
+    height: 135px;
+    border-radius: 10px;
+    width: 95px;
+}
+
+.sidebar a {
+    padding-bottom: 50px;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.sidebar a:hover {
+    color: #7712C9;
+}
+
+
+
+
+
+
+.tut-text {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+.center-vid {
+    transform: translateY(100px);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    width: 270;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    transform: translateY(100px);
+}
+
+.card h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+.card-image {
+    background-color: purple;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.btn-1 {
+    background-image: url("images/minecraftpic.jpeg");
+}
+.btn-2 {
+    background-image: url("images/osupic.jpeg")
+}
+.btn-3 {
+    background-image: url("images/robloxpic.jpeg");
+}
+.btn-4 {
+    background-image: url("images/steampic.png");
+}
+.btn-5 {
+    background-image: url("images/virtualpic.png");
+}
+.btn-6 {
+    background-image: url("images/vpnpic.jpeg");
+}
+.btn-7 {
+    background-image: url("images/mgbapic.jpeg");
+}
+.btn-8 {
+    background-image: url("images/poke_empic.jpeg");
+}
+.btn-9 {
+    background-image: url("images/fire_redpic.jpeg");
+}
+
+.card a {
+    background-color:rgb(0, 113, 188);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    margin: 20px 50px;
+    display: block;
+    text-align: center;
+    transform: translateY(100px); 
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.buy a {
+    background-color:rgb(0, 113, 188);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    margin: 20px 50px;
+    display: block;
+    text-align: center;
+    transform: translateY(100px); 
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.buy {
+    background-color: white;
+    width: 270;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    transform: translateY(100px);
+}
+
+.buy h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+.buy p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+li, a, button {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    background-color: #181818;
+}
+
+.Navbar {
+    z-index: 199;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #181818;
+    height: 50px;
+}
+
+.downloadBtn_Nav {
+    list-style: none;
+    text-decoration: none;
+}
+
+.downloadBtn_Nav a {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    transition: all 0.4s ease 0s;
+}
+
+.downloadBtn_Nav a:hover {
+    color: #7712C9;
+}
+
+.links {
+    list-style: none;
+}
+
+.links li {
+    display: inline-block;
+    padding: 0px 26px;
+}
+
+.links li a {
+    transition: all 0.4s ease 0s;
+}
+
+.links li a:hover {
+    color: #7712C9;
+}
+
+.contactBtn {
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+    background-color: #7712C9;
+}
+
+.contactBtn:hover {
+    color: #7712C9;
+    background-color: #181818;
+}
