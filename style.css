@@ -32,9 +32,9 @@ body {
     transform: translateY(-25%);
     transform: translateX(50px);
     top: 25%;
-    position: fixed;
+    position: absolute;
     background-color: #181818;
-    height: 250px;
+    height: 135px;
     border-radius: 10px;
     width: 95px;
 }
@@ -129,6 +129,12 @@ body {
 .btn-7 {
     background-image: url("images/mgbapic.jpeg");
 }
+.btn-8 {
+    background-image: url("images/poke_empic.jpeg");
+}
+.btn-9 {
+    background-image: url("images/fire_redpic.jpeg");
+}
 
 .card a {
     background-color:rgb(0, 113, 188);
@@ -143,7 +149,42 @@ body {
     font-weight: 400;
     font-size: 16px;
 }
+.buy a {
+    background-color:rgb(0, 113, 188);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    margin: 20px 50px;
+    display: block;
+    text-align: center;
+    transform: translateY(100px); 
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.buy {
+    background-color: white;
+    width: 270;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    transform: translateY(100px);
+}
 
+.buy h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+.buy p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
 
 
 
